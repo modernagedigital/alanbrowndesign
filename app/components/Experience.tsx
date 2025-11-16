@@ -23,7 +23,7 @@ export default function Experience() {
       <div className="container max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="font-display font-bold text-3xl md:text-4xl text-primary mb-4">
+          <h2 className="font-display font-bold text-3xl md:text-4xl text-primary mb-4 tracking-tight">
             Two decades of experience
           </h2>
           <p className="font-sans text-muted-foreground text-lg">

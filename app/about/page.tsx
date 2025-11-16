@@ -104,7 +104,7 @@ export default function AboutPage() {
             <div className="mb-12">
               <div className="w-24 h-24 rounded-full overflow-hidden mb-6">
                 <Image
-                  src="/alan-profile.avif"
+                  src="/Profile-blue.png"
                   alt="Alan Brown"
                   width={96}
                   height={96}
@@ -112,7 +112,7 @@ export default function AboutPage() {
                 />
               </div>
 
-              <h1 className="font-display font-bold text-4xl mb-8">About me</h1>
+              <h1 className="font-display font-bold text-4xl mb-8 tracking-tight">About me</h1>
 
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
@@ -134,7 +134,7 @@ export default function AboutPage() {
 
             {/* Skills Section */}
             <div className="mb-12">
-              <h2 className="font-display font-bold text-3xl mb-6">Skills</h2>
+              <h2 className="font-display font-bold text-3xl mb-6 tracking-tight">Skills</h2>
               <ul className="space-y-3">
                 {skills.map((skill, index) => (
                   <li key={index} className="flex gap-3 text-foreground/80">
@@ -147,7 +147,7 @@ export default function AboutPage() {
 
             {/* Recent Projects Section */}
             <div className="mb-12">
-              <h2 className="font-display font-bold text-3xl mb-6">Recent projects</h2>
+              <h2 className="font-display font-bold text-3xl mb-6 tracking-tight">Recent projects</h2>
               <div className="space-y-8">
                 {recentProjects.map((project, index) => (
                   <div key={index} className="flex gap-3">
@@ -171,7 +171,7 @@ export default function AboutPage() {
 
             {/* Experience Section */}
             <div className="mb-12">
-              <h2 className="font-display font-bold text-3xl mb-6">Experience</h2>
+              <h2 className="font-display font-bold text-3xl mb-6 tracking-tight">Experience</h2>
               <div className="space-y-8">
                 {experience.map((job, index) => (
                   <div key={index} className="flex gap-3">

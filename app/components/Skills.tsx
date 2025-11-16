@@ -14,7 +14,7 @@ export default function Skills() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left: Text Content */}
           <div>
-            <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground mb-6">
+            <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground mb-6 tracking-tight">
               Design, code and{" "}
               <span className="text-primary">everything</span> else
             </h2>

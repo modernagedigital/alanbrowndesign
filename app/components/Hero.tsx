@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="bg-secondary min-h-[600px] flex items-center justify-center pt-24 pb-16 px-6">
-      <div className="container max-w-4xl mx-auto text-center">
+    <section className="bg-secondary min-h-[95svh] max-h-[1200px] flex items-center justify-center pt-24 pb-16 px-6">
+      <div className="container max-w-5xl mx-auto text-center">
         {/* Profile Photo */}
         <div className="mb-8 flex justify-center">
           <div className="relative w-32 h-32 rounded-full overflow-hidden bg-muted">
             <Image
-              src="/alan-profile.avif"
+              src="/Profile-blue.png"
               alt="Alan Brown"
               fill
               className="object-cover"
@@ -47,7 +47,7 @@ export default function Hero() {
         </div>
 
         {/* Main Headline */}
-        <h1 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-tight">
+        <h1 className="font-display font-extrabold text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-tight tracking-tight">
           I'm Alan. UI-Leaning Digital Product Designer with a focus on{" "}
           <span className="text-primary">Design Systems</span>
         </h1>
